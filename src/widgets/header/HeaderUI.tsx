@@ -22,13 +22,11 @@ export function HeaderUI({ cartItemCount, cartItems, priceChanges }: HeaderUIPro
             <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 outline-none group">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-[var(--radius-md)] bg-primary text-primary-foreground shadow-sm transition-transform duration-300 group-hover:scale-105">
-                        <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 2C7.58 2 4 5.58 4 10v8a4 4 0 004 4h8a4 4 0 004-4v-8c0-4.42-3.58-8-8-8zm0 2c3.31 0 6 2.69 6 6v8c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2v-8c0-3.31 2.69-6 6-6z" />
-                        </svg>
+                    <div className="flex h-9 w-9 items-center justify-center rounded-[var(--radius-md)] shadow-sm transition-transform duration-300 group-hover:scale-105 overflow-hidden">
+                        <img src="/logo.png" alt="Dragon Logo" className="h-full w-full object-cover" />
                     </div>
                     <span className="text-lg font-bold text-foreground transition-colors group-hover:text-primary">
-                        Puff puff pass
+                        Dragon
                     </span>
                 </Link>
 

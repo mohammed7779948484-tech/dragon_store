@@ -53,7 +53,7 @@ export const SiteSettings: GlobalConfig = {
     {
       name: 'store_name',
       type: 'text',
-      defaultValue: 'Puff puff pass',
+      defaultValue: 'Dragon',
       admin: {
         description: 'Store display name',
       },

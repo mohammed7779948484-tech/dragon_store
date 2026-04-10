@@ -105,7 +105,7 @@ export default buildConfig({
             overrideAccess: true,
             data: {
               gate_password: hashedPassword,
-              store_name: 'Puff puff pass',
+              store_name: 'Dragon',
               whatsapp_number: process.env.WHATSAPP_NUMBER || '+15550199999',
               order_prefix: 'VX',
             },

@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     if (!product) return { title: 'Product Not Found' }
 
     return {
-        title: `${product.name} — Puff puff pass`,
+        title: `${product.name} — Dragon`,
         description: `${product.brandName ? `${product.brandName} — ` : ''}${product.name}. From $${product.minPrice.toFixed(2)}`,
     }
 }

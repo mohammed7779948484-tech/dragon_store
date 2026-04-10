@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     if (!category) return { title: 'Category Not Found' }
 
     return {
-        title: `${category.name} — Puff puff pass`,
-        description: `Browse ${category.name} products at Puff puff pass`,
+        title: `${category.name} — Dragon`,
+        description: `Browse ${category.name} products at Dragon`,
     }
 }
 

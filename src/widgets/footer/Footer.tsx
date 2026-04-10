@@ -26,13 +26,11 @@ export function Footer(): React.ReactElement {
                     {/* Brand */}
                     <motion.div variants={fadeUp}>
                         <div className="flex items-center gap-2">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-[var(--radius-md)] bg-primary text-primary-foreground">
-                                <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M12 2C7.58 2 4 5.58 4 10v8a4 4 0 004 4h8a4 4 0 004-4v-8c0-4.42-3.58-8-8-8zm0 2c3.31 0 6 2.69 6 6v8c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2v-8c0-3.31 2.69-6 6-6z" />
-                                </svg>
+                            <div className="flex h-8 w-8 items-center justify-center rounded-[var(--radius-md)] overflow-hidden">
+                                <img src="/logo.png" alt="Dragon Logo" className="h-full w-full object-cover" />
                             </div>
                             <span className="text-base font-bold text-foreground">
-                                Puff puff pass
+                                Dragon
                             </span>
                         </div>
                         <p className="mt-4 max-w-xs text-sm text-foreground/60 leading-relaxed font-medium">
@@ -101,7 +99,7 @@ export function Footer(): React.ReactElement {
                 {/* Bottom bar */}
                 <motion.div variants={fadeUp} className="mt-10 border-t border-border pt-6">
                     <p className="text-center text-xs text-muted-foreground">
-                        © {currentYear} Puff puff pass. All rights reserved.
+                        © {currentYear} Dragon. All rights reserved.
                     </p>
                 </motion.div>
             </div>

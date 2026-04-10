@@ -11,7 +11,7 @@ import { ProductGrid } from '@/widgets/product-grid'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'All Products — Puff puff pass',
+    title: 'All Products — Dragon',
     description: 'Browse our full catalog of premium vape products',
 }
 

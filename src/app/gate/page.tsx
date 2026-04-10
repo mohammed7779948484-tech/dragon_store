@@ -14,7 +14,7 @@ import { verifySession } from '@/core/auth/session'
 import { GateScreen } from '@/features/gate'
 
 export const metadata: Metadata = {
-    title: 'Enter Password | Puff puff pass',
+    title: 'Enter Password | Dragon',
     robots: { index: false, follow: false },
 }
 

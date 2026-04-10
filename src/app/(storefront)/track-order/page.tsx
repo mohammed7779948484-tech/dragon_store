@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { TrackOrderForm } from '@/features/order-tracking'
 
 export const metadata: Metadata = {
-    title: 'Track Order — Puff puff pass',
+    title: 'Track Order — Dragon',
     description: 'Track your order status by order number or phone number',
 }
 

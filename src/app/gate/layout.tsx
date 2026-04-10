@@ -17,7 +17,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-    title: 'Enter Password | Puff puff pass',
+    title: 'Enter Password | Dragon',
     description: 'Private e-commerce platform for premium vape products',
 }
 

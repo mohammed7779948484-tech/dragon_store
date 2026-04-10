@@ -17,7 +17,7 @@ import { OrderConfirmation } from '@/features/checkout/ui/OrderConfirmation'
 import type { OrderConfirmationData } from '@/features/checkout'
 
 export const metadata: Metadata = {
-    title: 'Order Confirmed — Puff puff pass',
+    title: 'Order Confirmed — Dragon',
     description: 'Your order has been placed successfully',
 }
 

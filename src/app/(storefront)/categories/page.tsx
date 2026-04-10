@@ -10,7 +10,7 @@ import { CategoryGrid } from '@/features/products'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'All Categories — Puff puff pass',
+    title: 'All Categories — Dragon',
     description: 'Browse our product categories',
 }
 

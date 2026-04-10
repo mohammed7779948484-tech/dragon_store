@@ -5,7 +5,7 @@
 import { env } from './env'
 
 export const appConfig = {
-  name: 'Puff puff pass',
+  name: 'Dragon',
   version: process.env.npm_package_version || '1.0.0',
   description: 'Private e-commerce platform for vape products',
   

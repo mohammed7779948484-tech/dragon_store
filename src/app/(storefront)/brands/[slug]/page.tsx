@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
     if (!brand) return { title: 'Brand Not Found' }
 
     return {
-        title: `${brand.name} — Puff puff pass`,
-        description: brand.description || `Shop ${brand.name} products at Puff puff pass`,
+        title: `${brand.name} — Dragon`,
+        description: brand.description || `Shop ${brand.name} products at Dragon`,
     }
 }
 

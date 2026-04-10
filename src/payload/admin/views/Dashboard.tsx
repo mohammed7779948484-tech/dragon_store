@@ -136,7 +136,7 @@ export const Dashboard: React.FC = () => {
     <>
       <style dangerouslySetInnerHTML={{ __html: dashboardStyles }} />
       <div className="vx-dashboard">
-        <h1 className="vx-dashboard__title">Welcome to Puff puff pass Admin</h1>
+        <h1 className="vx-dashboard__title">Welcome to Dragon Admin</h1>
         <p className="vx-dashboard__subtitle">
           Manage your products, orders, and store settings from this dashboard.
         </p>

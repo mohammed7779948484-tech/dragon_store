@@ -19,7 +19,7 @@ import { CheckoutForm } from '@/features/checkout/ui/CheckoutForm'
 import type { CheckoutCartItem } from '@/features/checkout'
 
 export const metadata: Metadata = {
-    title: 'Checkout — Puff puff pass',
+    title: 'Checkout — Dragon',
     description: 'Complete your order with cash on delivery',
 }
 

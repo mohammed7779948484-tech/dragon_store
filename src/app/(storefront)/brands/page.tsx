@@ -10,7 +10,7 @@ import { BrandGrid } from '@/features/products'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'All Brands — Puff puff pass',
+    title: 'All Brands — Dragon',
     description: 'Browse our premium vape brands',
 }
 

@@ -47,7 +47,7 @@ export function HeroSection(): React.ReactElement {
                     variants={fadeUp}
                     className="mb-6 max-w-3xl text-5xl font-extrabold tracking-tight sm:text-6xl lg:text-7xl text-foreground"
                 >
-                    Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/60">Puff puff pass</span>
+                    Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/60">Dragon</span>
                 </motion.h1>
 
                 <motion.p

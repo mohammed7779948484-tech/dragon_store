@@ -21,7 +21,7 @@ import {
 } from '@/features/cart'
 
 export const metadata: Metadata = {
-    title: 'Shopping Cart — Puff puff pass',
+    title: 'Shopping Cart — Dragon',
     description: 'Review items in your shopping cart',
 }
 

@@ -28,12 +28,10 @@ export function MobileNav(): React.ReactElement {
             <SheetContent side="left" className="flex w-full flex-col sm:max-w-md bg-background/95 backdrop-blur-xl border-r border-border/50">
                 <SheetHeader className="mb-6">
                     <SheetTitle className="text-left text-xl font-bold flex items-center gap-2">
-                        <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary text-primary-foreground shadow-sm">
-                            <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 2C7.58 2 4 5.58 4 10v8a4 4 0 004 4h8a4 4 0 004-4v-8c0-4.42-3.58-8-8-8zm0 2c3.31 0 6 2.69 6 6v8c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2v-8c0-3.31 2.69-6 6-6z" />
-                            </svg>
+                        <div className="flex h-8 w-8 items-center justify-center rounded-md overflow-hidden shadow-sm">
+                            <img src="/logo.png" alt="Dragon Logo" className="h-full w-full object-cover" />
                         </div>
-                        Puff puff pass
+                        Dragon
                     </SheetTitle>
                 </SheetHeader>
 
