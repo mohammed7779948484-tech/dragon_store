@@ -32,8 +32,8 @@ export function GateScreen(): React.ReactElement {
             >
                 {/* Brand Identity / Welcome */}
                 <motion.div variants={fadeUp} className="text-center space-y-4">
-                    <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl overflow-hidden shadow-sm">
-                        <img src="/logo.png" alt="Dragon Logo" className="h-full w-full object-cover" />
+                    <div className="mx-auto flex justify-center">
+                        <img src="/logo.png" alt="Dragon Logo" className="h-28 w-auto object-contain drop-shadow-lg" />
                     </div>
                     <div className="space-y-1.5">
                         <h1 className="text-3xl font-bold tracking-tight text-foreground">

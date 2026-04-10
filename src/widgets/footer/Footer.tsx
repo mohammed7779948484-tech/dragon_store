@@ -26,8 +26,8 @@ export function Footer(): React.ReactElement {
                     {/* Brand */}
                     <motion.div variants={fadeUp}>
                         <div className="flex items-center gap-2">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-[var(--radius-md)] overflow-hidden">
-                                <img src="/logo.png" alt="Dragon Logo" className="h-full w-full object-cover" />
+                            <div className="flex items-center justify-center">
+                                <img src="/logo.png" alt="Dragon Logo" className="h-10 w-auto object-contain" />
                             </div>
                             <span className="text-base font-bold text-foreground">
                                 Dragon

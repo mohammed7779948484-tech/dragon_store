@@ -11,7 +11,7 @@ const logoStyles = `
   }
 
   .vx-logo__svg {
-    width: 36px;
+    width: auto;
     height: 36px;
   }
 
@@ -32,7 +32,7 @@ export const Logo: React.FC = () => {
     <>
       <style dangerouslySetInnerHTML={{ __html: logoStyles }} />
       <div className="vx-logo">
-        <img src="/logo.png" alt="Dragon Logo" className="vx-logo__svg object-cover rounded-md" />
+        <img src="/logo.png" alt="Dragon Logo" className="vx-logo__svg object-contain drop-shadow-sm rounded-md" />
         <span className="vx-logo__text">Dragon</span>
       </div>
     </>

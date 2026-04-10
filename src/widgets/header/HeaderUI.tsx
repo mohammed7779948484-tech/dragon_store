@@ -22,8 +22,8 @@ export function HeaderUI({ cartItemCount, cartItems, priceChanges }: HeaderUIPro
             <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 outline-none group">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-[var(--radius-md)] shadow-sm transition-transform duration-300 group-hover:scale-105 overflow-hidden">
-                        <img src="/logo.png" alt="Dragon Logo" className="h-full w-full object-cover" />
+                    <div className="flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+                        <img src="/logo.png" alt="Dragon Logo" className="h-10 w-auto object-contain drop-shadow-sm" />
                     </div>
                     <span className="text-lg font-bold text-foreground transition-colors group-hover:text-primary">
                         Dragon
