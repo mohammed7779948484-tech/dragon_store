@@ -1,0 +1,38 @@
+﻿🚀 ═══════════════════════════════════════════════
+🚀  Data Migration: Old Project → Payload CMS v3
+🚀 ═══════════════════════════════════════════════
+node.exe : 💥 Migration failed: TypeError: Cannot 
+destructure property 'loadEnvConfig' of 
+'import_env.default' as it is undefined.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (💥 Migra 
+   tion fa...t is undefined.:String) [], RemoteExcep  
+  tion
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    at loadedEnvFiles (C:\Users\al haker\Desktop\refac
+toring\refactoring\node_modules\payload\dist\bin\loadE
+nv.js:3:9)
+    at Object.<anonymous> (C:\Users\al haker\Desktop\r
+efactoring\refactoring\node_modules\payload\dist\bin\l
+oadEnv.js:6:21)
+    at Module._compile 
+(node:internal/modules/cjs/loader:1761:14)
+    at Object.transformer (C:\Users\al haker\Desktop\r
+efactoring\refactoring\node_modules\tsx\dist\register-
+D46fvsV_.cjs:3:1104)
+    at Module.load 
+(node:internal/modules/cjs/loader:1481:32)
+    at Module._load 
+(node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync 
+(node:diagnostics_channel:328:14)
+    at wrapModuleLoad 
+(node:internal/modules/cjs/loader:245:24)
+    at Module.require 
+(node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
